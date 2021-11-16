@@ -38,7 +38,7 @@ jobs:
     environment:
       - MASTER_BRANCH: master
       - MASTER_TARGET: https://github.com/brightlayer-ui-components/brightlayer-ui-components.github.io
-      - GH_EMAIL: pxblue@eaton.com
+      - GH_EMAIL: brightlayter-ui@eaton.com
       - GH_NAME: Brightlayer UI Agent
     steps:
       - checkout

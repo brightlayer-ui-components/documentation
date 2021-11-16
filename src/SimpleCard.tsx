@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { makeStyles, createStyles, Theme, useTheme } from '@material-ui/core/styles';
 import { Typography, Button, Card, CardContent } from '@material-ui/core';
-import * as Colors from '@pxblue/colors';
+import * as Colors from '@brightlayer-ui/colors';
 import { ShortlineDivider } from './ShortlineDivider';
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -98,7 +98,7 @@ export const SimpleCard = (props: SimpleCardProps): JSX.Element => {
                     </Button>
                 </div>
                 <Typography className={classes.footer} variant={'subtitle2'} noWrap={true}>
-                    {packageName} - {version && <span>v{version}</span>}
+                    {packageName} <br/> {version && <span>v{version}</span>}
                 </Typography>
             </CardContent>
         </Card>
