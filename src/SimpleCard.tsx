@@ -98,7 +98,7 @@ export const SimpleCard = (props: SimpleCardProps): JSX.Element => {
                     </Button>
                 </div>
                 <Typography className={classes.footer} variant={'subtitle2'} noWrap={true}>
-                    {packageName} <br/> {version && <span>v{version}</span>}
+                    {packageName} <br /> {version && <span>v{version}</span>}
                 </Typography>
             </CardContent>
         </Card>
