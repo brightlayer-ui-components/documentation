@@ -6,11 +6,11 @@ import { App } from './App';
 import reportWebVitals from './reportWebVitals';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import * as PXBThemes from '@pxblue/react-themes';
-import '@pxblue/react-themes/open-sans';
+import * as BLUIThemes from '@brightlayer-ui/react-themes';
+import '@brightlayer-ui/react-themes/open-sans';
 
 ReactDOM.render(
-    <MuiThemeProvider theme={createMuiTheme(PXBThemes.blue)}>
+    <MuiThemeProvider theme={createMuiTheme(BLUIThemes.blue)}>
         <CssBaseline />
         <App />
     </MuiThemeProvider>,

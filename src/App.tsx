@@ -3,7 +3,7 @@ import { SimpleCard } from './SimpleCard';
 import { ShortlineDivider } from './ShortlineDivider';
 import { makeStyles, createStyles, Theme, useTheme } from '@material-ui/core/styles';
 import { Typography, Button, Fab } from '@material-ui/core';
-import * as Colors from '@pxblue/colors';
+import * as Colors from '@brightlayer-ui/colors';
 import { Feedback } from '@material-ui/icons';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
@@ -112,7 +112,7 @@ export const App: React.FC = (): JSX.Element => {
                             body={
                                 'Our Angular component library is intended for use in applications built using Angular and Angular Material. They can also be used in Ionic applications that are built with Angular. '
                             }
-                            packageName={'@pxblue/angular-components'}
+                            packageName={'@brightlayer-ui/angular-components'}
                             url={'/angular'}
                         />
                         <SimpleCard
@@ -121,7 +121,7 @@ export const App: React.FC = (): JSX.Element => {
                             body={
                                 'Our React component library can be used for applications built using React v16+. They include strong type definitions so they will work well in either JavaScript or TypeScript projects.'
                             }
-                            packageName={'@pxblue/react-components'}
+                            packageName={'@brightlayer-ui/react-components'}
                             url={'/react'}
                         />
                         <SimpleCard
@@ -130,7 +130,7 @@ export const App: React.FC = (): JSX.Element => {
                             body={
                                 'Our React Native component library can be used for mobile applications built with React Native v0.60+. They include strong type definitions so they will work well in either JavaScript or TypeScript projects.'
                             }
-                            packageName={'@pxblue/react-native-components'}
+                            packageName={'@brightlayer-ui/react-native-components'}
                             url={'/react-native'}
                         />
                     </div>
@@ -141,7 +141,7 @@ export const App: React.FC = (): JSX.Element => {
                             </Typography>
                             <ShortlineDivider />
                             <Typography>
-                                These component libraries are part of the Power Xpert Blue design system. They simplify
+                                These component libraries are part of the Brightlayer UI design system. They simplify
                                 development efforts and ensure consistency across products by providing out-of-the-box
                                 components implementations for common UI elements. Our documentation uses Storybook to
                                 showcase the various ways these components can be configured.
@@ -154,7 +154,7 @@ export const App: React.FC = (): JSX.Element => {
                                     className={matchesXS ? classes.sectionButtonXS : classes.sectionButton}
                                     variant="outlined"
                                     color="primary"
-                                    href="https://pxblue.github.io"
+                                    href="https://brightlayer-ui.github.io"
                                 >
                                     About Us
                                 </Button>
@@ -162,7 +162,7 @@ export const App: React.FC = (): JSX.Element => {
                                     className={matchesXS ? classes.sectionButtonXS : classes.sectionButton}
                                     variant="outlined"
                                     color="primary"
-                                    href="https://pxblue.github.io" // TODO: change to a valid link
+                                    href="https://brightlayer-ui.github.io" // TODO: change to a valid link
                                 >
                                     Development Roadmap
                                 </Button>
@@ -177,7 +177,7 @@ export const App: React.FC = (): JSX.Element => {
                     color="primary"
                     className={classes.FAB}
                     aria-label="feedback"
-                    href="https://pxblue.github.io/community/contactus"
+                    href="https://brightlayer-ui.github.io/community/contactus"
                 >
                     <Feedback />
                 </Fab>
